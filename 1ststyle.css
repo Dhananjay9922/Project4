@@ -1,0 +1,63 @@
+*{
+    box-sizing:border-box;   
+}
+
+ body{
+     font-family: cursive;
+     background-origin:content-box;
+     margin-top: 35px;
+     margin-left: 35px;
+     font-size: 18px;
+     padding: 2px;
+     border: 1px solid black;
+     size: 45px;
+     size-adjust: 20%;
+     height: 40%;
+     width: 50%;
+          
+ }
+/* Styling for background */
+ .bg-image{
+    background-size: 100%;
+     background-image: url(Man\ coding.jpg);
+     background-repeat: no-repeat;
+     background-attachment:scroll;
+     height: 100%;
+     width: 100%;
+     margin-top: 0px;
+
+}
+
+ /* Style for Header */
+ h1{
+     text-align:center;
+     color: rgb(248, 242, 242)           
+ }
+
+ h2{
+     color: cornsilk;    
+ }
+
+ /* Style for input types */
+ input[type="text"],
+ input[type="text"],
+ input[type="text"],
+ input[type="email"],
+ input[type="message"],
+ textarea{
+     width: 50%;     
+ }
+
+div{
+    text-align: center;
+    
+}
+
+input[type="Submit"]:hover{
+    background-color: rgba(90, 168, 182, 0.493);
+    text-decoration: dotted;   
+}
+
+
+
+
